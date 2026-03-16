@@ -1,0 +1,46 @@
+# FlowSync Python - Dependencies
+
+# Web Framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+
+# Database
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+alembic==1.14.0
+
+# Validation & Serialization
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# Authentication
+clerk-backend-api==1.8.0
+
+# Async & Concurrency
+aiohttp==3.11.10
+httpx==0.28.1
+
+# Scheduling
+croniter==5.0.1
+apscheduler==3.10.4
+
+# Utilities
+python-dotenv==1.0.1
+python-jose[cryptography]==3.3.0
+
+# Logging & Monitoring
+structlog==24.4.0
+prometheus-client==0.21.0
+
+# Testing (optional)
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx==0.28.1
+
+# Development
+black==24.10.0
+ruff==0.8.4
+mypy==1.13.0
+
